@@ -1,0 +1,47 @@
+<body>
+    <h2>Contact with us</h2>
+    <form action="" method="post">
+        <div class="elem-group"> <label for="name">Name</label> <input type="text" id="name" name="visitor_name"
+                placeholder="Nombre de ejemplo" pattern=[A-Z\sa-z]{3,20} required> </div>
+        <div class="elem-group"> <label for="email">Email</label> <input type="email" id="email" name="visitor_email"
+                placeholder="ejemplo@email.com" required> </div>
+        <div class="elem-group"> <label for="department-selection">Area to contact</label> <select
+                id="department-selection" name="concerned_department" required>
+                <option value="">Select area</option>
+                <option value="billing">Billing</option>
+                <option value="marketing">Marketing</option>
+                <option value="technical support">Technical support</option>
+            </select> </div>
+        <div class="elem-group">
+            <label for="title">Cause</label>
+            <input type="text" id="title" name="email_title" required placeholder="Problema/Consulta"
+                pattern=[A-Za-z0-9\s]{8,60}>
+        </div>
+        <div class="elem-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="visitor_message" placeholder="Escribe tu mensaje aquí." required>
+        </textarea>
+        </div>
+        <button type="submit">Send message</button>
+    </form>
+    <h2>Do you have an account?</h2>
+    <div class="login">
+        <h2><a href="../../assets/login/index.html" class="openModal">Login</a></h2>
+    </div>
+    <!-- He intentado hacer el modal pero no hay manera de que funcione
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <h4>Iniciar Sesión</h4>
+            <form id="login-form">
+                <label for="username">Nombre de usuario:</label>
+                <input type="text" id="username" name="username" placeholder="Introduzca nombre de usuario">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" placeholder="Introduzca la contraseña">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <a class="modal-trigger" href="#modal2">Iniciar sesión</a>
+    <script src="../../assets/modal.js"></script>
+    -->
+</body>

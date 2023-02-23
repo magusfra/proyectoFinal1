@@ -1,0 +1,32 @@
+@import "../partials/colors.scss";
+@import "../partials/fonts.scss";
+
+
+.example-header-image1 {
+    background-size: cover;
+}
+
+.example-card {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 500px;
+    background-color: $secondary;
+}
+mat-card-title:hover{
+    color: white;
+}
+h4{
+    font-family: $titlesFont;
+}
+
+
+// .example-card {
+//     max-width: 400px;
+// }
+
+// .example-header-image1 {
+//     background-image: url('https://pbs.twimg.com/media/FVX94ncWIAMnQSa.jpg');
+//     background-size: cover;
+// }

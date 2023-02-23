@@ -1,0 +1,22 @@
+@import "../partials/colors.scss";
+@import "../partials/fonts.scss";
+
+*{
+    background-color: $primary;
+    color:white;
+}
+h2{
+    font-family: $titlesFont;
+}
+.flex-container {
+    //display: flex;
+    background: $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+img{
+    background-size: cover;
+}

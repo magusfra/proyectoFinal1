@@ -1,0 +1,19 @@
+@import "../partials/colors";
+@import "../partials/fonts";
+
+.flex-container{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: $primary;
+    iframe{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+*{
+    background-color: $primary;
+    
+}
+h2{
+    font-family: $titlesFont;
+}
